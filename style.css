@@ -79,12 +79,12 @@ body {
     transform: translateY(-20%);
 }
 
-.path1:hover {
+.foto:hover .path1 {
     transform: translateX(10%);
     transition: 0.25s;
 }
 
-.path2:hover {
+.foto:hover .path2{
     transform: translateX(-10%);
     transition: 0.25s;
 }
