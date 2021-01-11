@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F6F6F6;
+}
+
+.navbar {
+    margin: 0;
+    padding: 10px;
+    transition: 0.25s;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.active {
+    border-bottom: 2px solid #FF4600;
+}
+
+.nav-item:hover {
+    border-bottom: 2px solid #FF4600;
+}
+
+.container.page {
+    padding: 15% 0;
+}
+
+.container.page .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container.page .row .col-sm-6 h1 {
+    font-family: Arial;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.container.page .row .col-sm-6 h1 span {
+    color: #FF4600;
+}
+
+.container.page .row .col-sm-6 button {
+    color: #fff;
+    background-color: #2B2B2B;
+}
+
+.container.page .row .col-sm-6 button:hover {
+    background-color: #FF4600;
+}
+
+.icon-sosmed img:hover {
+    background-color: #FF4600;
+    border-radius: 20px;
+    transition: 0.25s;
+}
+
+.container.page .col-sm-6 .foto img {
+    position: absolute;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+}
+
+.scroll {
+    background-color: #ffffff;
+    color: white;
+    padding: 0;
+}
+
+.path1 {
+    transform: translateY(-20%);
+}
+
+.path1:hover {
+    transform: translateX(10%);
+    transition: 0.25s;
+}
+
+.path2:hover {
+    transform: translateX(-10%);
+    transition: 0.25s;
+}
+
+@media (max-width: 600px) {
+    .navbar-brand {
+        margin-left: 20px;
+    }
+    .container.page {
+        padding: 140px 30px 30px;
+    }
+    .container.page .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container.page .col-sm-6.satu {
+        order: 2;
+        margin-top: 400px;
+    }
+    .container.page .col-sm-6.dua {
+        order: 1;
+    }
+    .container.page .col.dua img {
+        margin: 20px auto;
+    }
+    .collapse {
+        background-color: #ff4400ad;
+    }
+    .collapse a {
+        color: white;
+    }
+}
